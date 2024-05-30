@@ -1,0 +1,41 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-Os",
+      "-std=c99",
+      "-ggdb3",
+      "-mcpu=cortex-m3",
+      "-mthumb",
+      "-msoft-float",
+      "-fno-common",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-Wextra",
+      "-Wshadow",
+      "-Wno-unused-variable",
+      "-Wimplicit-function-declaration",
+      "-Wredundant-decls",
+      "-Wstrict-prototypes",
+      "-Wmissing-prototypes",
+      "-Wall",
+      "-Wundef",
+      "-I.",
+      "-I.",
+      "-I../libopencm3/include",
+      "-I.",
+      "-I.",
+      "-I../libopencm3/include",
+      "-DSTM32F1",
+      "-DSTM32F103C8",
+      "-I../libopencm3/include",
+      "-c",
+      "-o",
+      "bin/my-project.o",
+      "my-project.c"
+    ],
+    "directory": "/home/mahan/opt/libopencm3-template/my-project",
+    "file": "/home/mahan/opt/libopencm3-template/my-project/my-project.c",
+    "output": "/home/mahan/opt/libopencm3-template/my-project/bin/my-project.o"
+  }
+]
